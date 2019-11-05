@@ -1,0 +1,21 @@
+//import lib
+@import "variables";
+@import "mixins";
+
+//import core
+@import "base";
+@import "footer";
+@import "header";
+@import "reset";
+
+//add variables
+$space: 2rem;
+$rootColor: green;
+$accentColor: black;
+
+//header and footer variables
+header, footer{
+  $space: 5rem;
+  $rootColor:grey;
+  $accentColor:red;
+}

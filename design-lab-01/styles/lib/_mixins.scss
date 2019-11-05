@@ -1,0 +1,23 @@
+@mixin borderRadius($radius){
+  border-radius: 3px;
+}
+
+@mixin flex($width: null, $height: null){
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: flex-end;
+}
+
+@mixin center($width: null, $height: null){
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+@mixin border($dash){
+  border: dashed blue 5px;
+}
+
+@mixin border($solid){
+  border: solid red 3px;
+}
